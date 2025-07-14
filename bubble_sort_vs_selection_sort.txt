@@ -1,0 +1,13 @@
+⚔️ Bubble Sort vs. Selection Sort: A Speed Showdown
+| Feature | Bubble Sort | Selection Sort | 
+| Time Complexity | O(n²) in all cases | O(n²) in all cases | 
+| Best Case Speed | O(n) with optimization (already sorted) | O(n²) even if already sorted | 
+| Swaps Count | High (multiple per pass) | Minimal (1 swap per pass) | 
+| Comparison Count | Depends on data, potentially many | Fixed pattern, n(n−1)/2 comparisons | 
+| In-Place? | Yes | Yes | 
+| Stable Sort? | Yes | No | 
+
+
+🧠 Which Is Faster?
+- In practice, selection sort can edge out bubble sort slightly because it performs fewer swaps, which matters if swapping is expensive.
+- However, if the data is nearly sorted and you're using an optimized bubble sort (e.g. early exit when no swaps occur), bubble sort can be faster due to fewer iterations.
